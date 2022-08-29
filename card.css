@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.title{
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+.first{
+    font-size: 30px;
+    color: #C5C5C7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.second{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4E4C59;
+}
+.third{
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    color: #C5C5C7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+.card1{
+    width: 350px;
+    height: 190px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: absolute;
+    display: flex;
+    top: 182px;
+    bottom: -140px;
+    right: 410px;
+    border-radius: 10px;
+    border-top: 5px solid red;
+}
+.card1cont{
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 24px;
+}
+.card2{
+    width: 350px;
+    height: 190px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: absolute;
+    top: 282px;
+    right: 775px;
+    border-radius: 10px;
+    border-top: 5px solid blue;
+}
+.card3{
+    width: 350px;
+    height: 190px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: absolute;
+    top: 282px;
+    right: 45px;
+    border-radius: 10px;
+    border-top: 5px solid #F99800;
+}
+.card4{
+    width: 350px;
+    height: 190px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: absolute;
+    display: flex;
+    top: 387px;
+    bottom: -140px;
+    right: 410px;
+    border-radius: 10px;
+    border-top: 5px solid #48B7A7;
+}
